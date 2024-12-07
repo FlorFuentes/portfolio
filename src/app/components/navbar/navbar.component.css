@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    padding: 0px;
+    min-height: 60px;
+    background: rgba(0, 0, 0, 0.083);
+    box-shadow: 2px 0px 4px 3px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  
+  }
+  .logo-img-navbar {
+    width: 59px;
+    height: auto;
+  }
+  
+  .nav-link {
+    color: #fff2dc;
+    margin: 0px 0px;
+    padding: 30px 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-variant:all-petite-caps;
+  }
+  
+  a.nav-link:hover {
+    transform: scale(1.10);
+    border-bottom: 3px solid white;
+  }
+  
+  /* cambio de color navbar */
+  
+  .navbar-black {
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
