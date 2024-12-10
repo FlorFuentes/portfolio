@@ -1,11 +1,12 @@
 import { Component, HostListener } from '@angular/core';
 import { DatosPortfolioService } from '../../services/datos-portfolio.service';
-import { Router } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterLinkActive, CommonModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
@@ -13,7 +14,7 @@ export class NavbarComponent {
 
   constructor(private router:Router, private data:DatosPortfolioService ){}
 
-
+//Cambio color navbar
   isNavbarBlack: boolean = false;
 
   @HostListener('window:scroll', ['$event'])
@@ -52,4 +53,8 @@ export class NavbarComponent {
     document.getElementById("contacto")?.scrollIntoView({behavior:"smooth"});
    }
 
+   ngOnInit() {
+    console.log('NavbarComponent cargado');
+  }
+  
 }

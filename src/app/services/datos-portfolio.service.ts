@@ -15,4 +15,5 @@ export class DatosPortfolioService {
   public obtenerDatos(): Observable<any>{
     return this.http.get(this.json);
   }
+
 }

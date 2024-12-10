@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --img_fondo: url("assets/img/fondo.jpg")
+
+  }
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 100%;  
+    /* font-family: 'Bacasime Antique', serif; */
+    font-family: "Roboto", Sans-serif;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+ /*  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */

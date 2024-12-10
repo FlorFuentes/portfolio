@@ -1,0 +1,87 @@
+{
+    "navbar": {
+        "logo-img-navbar": "../../../assets/img/Logo_Mio.png"
+    },
+    "hero": {
+        "nombre": "Florencia Fuentes",
+        "descripcion": "Desarrolladora Web"
+    },
+    "sobreMi": {
+        "titulo": "SOBRE MI",
+        "descripcion": "Aquí encontrará más información, lo que hago y mis habilidades actuales",
+        "conoceme": "CONOCEME",
+        "sobre1": "¡Hola! Soy Florencia Fuentes, Desarrolladora Web Front End y Co-Fundadora de RF Web Design. Desde 2021, me dedico a crear sitios web funcionales y atractivos, utilizando tecnologías como HTML, CSS, JavaScript, WordPress y Elementor.",
+        "sobre2": "Con una filosofía basada en la colaboración y el aprendizaje continuo, mi objetivo es transformar ideas en experiencias digitales que destaquen.",
+
+        "descargarCv": "Descargar Cv"
+    },
+    "habilidades": {
+        "misHabi": "MIS HABILIDADES"
+    },
+    "projects": {
+        "titulo": "TRABAJOS REALIZADOS",
+        "descripcion": "¡Aquí encontrarás algunos de los trabajos realizados!",
+        "proj": [
+            {
+                "nombre": "Consultora SEHGG",
+                "img": "../../../assets/img/Sehgg.webp",
+                "descri1": "Consultora de Seguridad e Higiene industrial. Single page realizada con WordPress y Elementor - 2024.",
+                "urlDeploy": "https://sehgg.com.ar/"
+            },
+            {
+                "nombre": "RF Web Design",
+                "img": "../../../assets/img/RFWebDesign.webp",
+                "descri1": "Agencia de diseño y desarrollo de sitios web. Web corporativa realizada con WordPress y Elementor - 2024.",
+                "urlDeploy": "https://rfwebdesign.com.ar/"
+            },
+            {
+                "nombre": "Las Peonias",
+                "img": "../../../assets/img/LasPeonias3.png",
+                "descri1": "Empresa de cosméticos. Single page realizada con Angular. Diseño moderno y funcional - 2024",
+                "urlDeploy": "https://las-peonias.vercel.app/"
+            },
+            {
+                "nombre": "Portfolio Personal",
+                "img": "../../../assets/img/ImgDestacada.png",
+                "descri1": "Portfolio personal tipo Single page. Realizado con Angular 16.1. Google Analytics- 2024",
+                "urlDeploy": "https://florencia-fuentes.web.app/"
+            },
+            {
+                "nombre": "Portfolio",
+                "img": "../../../assets/img/portfolioARG.png",
+                "descri1": "Proytecto de Argentina Programa 4.0. Construido con HTML, CSS, Bootstrap, Angular, Java y Spring Boot, base de datos MySQL para funcionalidades CRUD - 2023",
+                "urlDeploy": "https://portfolio-argprograma-6ed7c.web.app/inicio"
+            },
+            {
+                "nombre": "Color Game",
+                "img": "../../../assets/img/ColorGame.png",
+                "descri1": "Un juego de adivinanzas para identificar colores a partir de su código RGB. Incluye dos niveles de dificultad: fácil (3 opciones) y difícil (6 opciones).",
+                "urlDeploy": "https://6619a514eef1b900a034d1d0--silly-crepe-323d14.netlify.app/"
+            }
+        ]
+    },
+    
+    
+        "footer": {
+          "links": [
+            { "name": "Inicio","url": "#inicio" },
+            { "name": "Sobre mí", "url": "#sobre-mi" },
+            { "name": "Trabajos", "url": "#trabajos" },
+            { "name": "Contacto", "url": "#contacto" }
+          ],
+          "contacto": [
+            { "name": "flopy_200412@outlook.com", "icon": "fa-regular fa-envelope", "url": "mailto:flopy_200412@outlook.com" },
+            { "name": "@flor.fuentes.12", "icon": "fa-instagram", "url": "https://www.instagram.com/flor.fuentes.12/" },
+            { "name": "LinkedIn", "icon": "fa-linkedin", "url": "www.linkedin.com/in/florencia-fuentes-52b841263" },
+            { "name": "WhatsApp", "icon": "fa-whatsapp", "url": "https://wa.me/2944206530" }
+          ],
+          "trabajos": [
+            { "name": "Consultora SEHGG", "url": "https://sehgg.com.ar/" },
+            { "name": "RF Web Design", "url": "https://rfwebdesign.com.ar/" },
+            { "name": "Las Peonias", "url": "https://las-peonias.vercel.app/" },
+            { "name": "Portfolio Personal", "url": "https://florencia-fuentes.web.app/" }
+          ],
+          "disclaimer": "Creado por Florencia Fuentes 2024 - Todos los derechos reservados"
+        }
+      }
+      

@@ -1,1 +1,20 @@
-<p>sobre-mi works!</p>
+<!-- <div id="sobreMi"></div> -->
+<section id="sobreMi" class="acer">
+    <div class="container a.s">
+      <div class="sobre-mi">
+        <h3 *ngIf="sobreMi" class="titulo">{{sobreMi.titulo}}</h3>
+        <p *ngIf="sobreMi" class="text-center">{{sobreMi.descripcion}} </p>
+      </div>
+      <div class="row">
+        <div class="conoceme col-md">
+          <h3 *ngIf="sobreMi">{{sobreMi.conoceme}}</h3>
+          <p *ngIf="sobreMi">{{sobreMi.sobre1}}</p>
+          <p *ngIf="sobreMi">{{sobreMi.sobre2}}</p>
+  
+        </div>
+        <div *ngIf="sobreMi" class="cv col-md">
+          <a download="FlorenciaFuentes" href="../../../assets/pdf/Curriculum Vitae.pdf">{{sobreMi.descargarCv}}</a>
+        </div>
+      </div>
+    </div>
+  </section>

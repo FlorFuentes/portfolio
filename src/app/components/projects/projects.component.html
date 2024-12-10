@@ -1,0 +1,22 @@
+<section class="proyec" id="proyectos">
+    <div class="container">
+        <div class="titulo text-center col-12">
+            <h5 *ngIf="projects">{{ projects.titulo }}</h5>
+            <p class="texto" *ngIf="projects">{{ projects.descripcion }}</p>
+        </div>
+        <div class="proyectos">
+            <div *ngFor="let proyect of projecLista" class="proye">
+                <!-- Card -->
+                <a *ngIf="proyect.urlDeploy" [href]="proyect.urlDeploy" target="_blank" class="card-link">
+                    <div class="card">
+                        <img class="proyImg" [src]="proyect.img" [alt]="proyect.nombre">
+                        <div class="card-body">
+                            <h5 *ngIf="proyect.nombre">{{ proyect.nombre }}</h5>
+                            <p class="card-text" *ngIf="proyect.descri1">{{ proyect.descri1 }}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
