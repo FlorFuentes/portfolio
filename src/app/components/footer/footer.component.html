@@ -3,6 +3,7 @@
   <div class="footer-container">
     <!-- <img src="../../../assets/img/2.png" alt="Logo Florencia Fuentes" class="footer-logo"> -->
     <!-- Links Útiles -->
+
     <div class="footer-section" *ngIf="foo && foo.footer.links">
       <h3>LINKS ÚTILES</h3>
       <ul>
@@ -31,11 +32,15 @@
       <h3>TRABAJOS</h3>
       <ul>
         <li *ngFor="let trabajo of foo.footer.trabajos">
-          <a [href]="trabajo.url"  target="_blank">
+          <a [href]="trabajo.url" target="_blank">
             <i class="fa-solid fa-chevron-right"></i> {{ trabajo.name }}
           </a>
         </li>
       </ul>
+    </div>
+
+    <div class="boton-up">
+      <a title="Volver al inicio" (click)="toContacto()"> <i class="fa-regular fa-circle-up text-white fa-2x"></i></a>
     </div>
   </div>
 
