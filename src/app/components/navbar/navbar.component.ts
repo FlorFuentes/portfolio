@@ -43,9 +43,9 @@ export class NavbarComponent {
     this.router.navigate(['']);
     document.getElementById("habilidadestecnicas")?.scrollIntoView({behavior:"smooth"});
    }
-   toProyectos(){
+   toTrabajos(){
     this.router.navigate(['']);
-    document.getElementById("proyectos")?.scrollIntoView({behavior:"smooth"});
+    document.getElementById("trabajos")?.scrollIntoView({behavior:"smooth"});
    }
 
    toContacto(){
