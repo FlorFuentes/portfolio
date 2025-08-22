@@ -8,6 +8,9 @@ section {
     justify-content: center;
     align-items: center;
 }
+#trabajos {
+  scroll-margin-top: 100px;
+}
 
 .proyec {
     padding-top: 30px;
@@ -39,7 +42,7 @@ section {
     text-align: center;
 }
 
-.proyectos {
+.trabajos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;

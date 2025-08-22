@@ -65,7 +65,7 @@
         "footer": {
           "links": [
             { "name": "Inicio","url": "#inicio" },
-            { "name": "Sobre mí", "url": "#sobre-mi" },
+            { "name": "Sobre mí", "url": "#sobreMi" },
             { "name": "Trabajos", "url": "#trabajos" },
             { "name": "Contacto", "url": "#contacto" }
           ],
